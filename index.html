@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shashank-Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cantarell|Supermercado+One+Alegreya|Lobster" rel="stylesheet"> 
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+	<link href="css/featuredwork.css" rel="stylesheet">
+	<link href="css/testimony.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+<!-- css for testtimonials -->
+
+.bio {
+    font-size: 0.87em;
+}
+
+.bio p {
+    margin-bottom: 1em;
+}
+
+.bio-info {
+    font-size: 15px;
+    font-size: 1.5rem;
+	text-align:left;
+}
+
+
+.avatar img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.8em;
+    border: #1fbad6 solid 4px;
+}
+
+.avatar {
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 4px;
+}
+
+.purpleact{
+	cursor:pointer;
+	background-color:#8E44AA;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+	padding:1em 0 0.8em 0;
+	color:white;
+	font-size:20px;  
+	display:inline-block; 
+	width:33.3%; 
+}
+.purpleact:hover{
+	color:white;
+	background-color:#8E24AA;
+}
+.greenact{
+	cursor:pointer;
+	background-color:#00a392;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+	padding:1em 0 0.8em 0;
+	color:white;
+	font-size:20px;  
+	display:inline-block; 
+	width:33.3%;
+}
+.greenact:hover{
+	color:white;
+	background-color:#00897B;
+}
+.redact{
+	cursor:pointer;
+	background-color:#c94149;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+	padding:1em 0 0.8em 0;
+	color:white;
+	font-size:20px;  
+	display:inline-block; 
+	width:33.4%;
+}
+.redact:hover{
+	color:white;
+	background-color:#c94F49;
+}
+.cyanicon{
+	color:#1fbad6;
+}
+.cyanicon:hover{
+	color:#045f8c;
+}
+/*
+ul>li>a>i:hover{
+	color:#2098d1;
+}
+*/
+</style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="/*font-family:'Supermercado One';*/ font-size:24px; text-transform:none;">
+                    <!--i class="fa fa-play-circle"></i--> <!--span class="btn btn-circle light" style="height:40px; width:40px; margin:0px; font-size:15px; padding:5px;"-->
+					SK</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#techstack">TECH Stack</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+					<!--li>
+                        <a class="page-scroll" href="" style="background-color:rgba(255,255,255,0.4);">Hire Me</a>
+                    </li-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+						<img class="btn btn-circle" src="img/pro_pic.png" style="border-size:10px; margin-top:50px; margin-bottom:50px; height:auto; width:auto;">
+                        <p class="intro-text" style="">Web Developer <i class="fa fa-star" aria-hidden="true" style="font-size:12px; margin-top:-20px;"></i> UI/UX Designer <i class="fa fa-star" aria-hidden="true" style="font-size:12px;"></i> Automation Tester
+                        </p>
+                        <a href="#about" class="btn btn-circle page-scroll" style="">
+                            <i class="fa fa-angle-double-down animated" style=""></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center" style=" padding:110px 50px 70px 50px; background-color:white; color:black; margin:0px; width:100%">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Life of a Front End Developer</h2>
+                <p style="font-size:22px; line-height:2.0;">Software Engineer with 2+ years of experience. People mostly work in either Testing or Development domain. But i offer a packaged deal; Tester and a developer. I am in ways better than a Full Stack Developer because i can even test the code. I have not confined or hampered my learning. I have received Client Appreciation for Designing and Developing a Web Portal for a new Employee's Induction and Shadowing process. The idea and tool was perceived with critical acclaim and received an award for the same. I am currently working on MEAN stack as i have recently discovered my profound love for NodeJS and Mongo DB</p>
+            </div>
+        </div>
+    </section>
+	<!-- Featured work header-->
+	<!--section id="" class="container content-section text-center" style="padding: 0px;margin: 0px;width: 100%;">
+		<div class="row" style="background-image:url(img/tsbg.jpg); border-bottom: 7px solid black;border-top: 7px solid white;color: black;">
+			<p style=" color:white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;">Technology Stack</p>
+		</div>
+	</section-->
+	<!-- Featured Work -->
+	<section id="techstack" class="featured work"><ul class="three-up no-gutter" style="margin-bottom:0px;"><li><a style="background-color: rgb(246, 246, 246);" href="#"><img alt="Greedy Peg" src="img/html_logo.png"></a></li><li><a style="background-color: rgb(238, 237, 251);" href="#"><img alt="CSS3" src="img/css_logo.png"></a></li><li><a style="background-color: rgb(255,255,255);" href="#"><img alt="Javascript" src="img/jsp_logo.png"></a></li><li><a style="background-color: rgb(0, 0, 0);" href="#"><img alt="JQuery" src="img/jquery-logo.jpg"></a></li><li><a style="background-color: rgb(51, 54, 59);" href="#"><img alt="CSS3 Foundations" src="img/nodejs_logo.png"></a></li><li><a style="background-color:lavender;" href="#"><img alt="Bootstrap" src="img/tboot_logo.png"></a></li><li><a style="background-color: mediumSeaGreen;" href="#"><img alt="Silicon Valley Community Foundation - Annual Report" src="img/mongo.png"></a></li><li><a style="background-color: rgb(255, 255, 255);" href="#"><img alt="ELI - Learning &amp; Training" src="img/github.png"></a></li><li><a style="background-color: rgb(68, 68, 68);" href="#"><img alt="Hover.css" src="img/sel_logo.png"></a></li><li><a style="background-color: rgb(255,255,255);" href="#"><img alt="TIGI - Hair Reborn" src="img/confor_logo.png"></a></li></ul> </section>
+    <!-- Download Section -->
+    <!--section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download Grayscale</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!--section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section >
+    <div id="map"></div-->
+	<!-- What i love to do section -->
+	<a class="purpleact"><i class="fa fa-sitemap" aria-hidden="true"></i> Organizations and Clients</a><a class="redact"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Notable work</a><a class="greenact"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Testimonials</a>
+	<a title="Space:What I love to do!" class="button action" href="#" style="font-size:20px;">I <i class="fa fa-heart" aria-hidden="true" style="color:#FF3333;"></i> cooking <i class="fa fa-cutlery" aria-hidden="true" style="color:peachpuff;"></i> , Binge-watching Sitcoms <i class="fa fa-television" aria-hidden="true" style="color:black;"></i> and code <i class="fa fa-code" aria-hidden="true" style="color:yellowGreen;"></i></a>
+    
+	<!--Organization and Client-->
+	<section class="orgclient" style="display:none;">
+		<blockquote  style="display:inline-block; margin:0px;">
+		<img class="col-md-4 col-md-offset-2" src="img/techm_logo.png" style="display:inline-block; height:100px; margin-top:50px;">
+		<p class="col-md-4" style="font-size:17px;">Tech Mahindra Limited is an Indian multinational provider of information technology (IT), networking technology solutions and Business Process Outsourcing (BPO) to the telecommunications industry.Tech Mahindra is a US$4.2 billion company with over 117,000 employees across 90 countries.Tech Mahindra has 825 active clients as of March 2016.</p>
+		</blockquote>
+		<blockquote  style="display:inline-block;">
+		<img class="col-md-4 col-md-offset-2" src="img/att-logo.png" style="display:inline-block; height:250px;">
+		<p class="col-md-4" style="font-size:17px;">AT&T can trace its origin back to the original Bell Telephone Company founded by Alexander Graham Bell after his invention of the telephone. It is an American multinational telecommunications conglomerate. It is the second largest provider of mobile telephone services and the largest provider of fixed telephone services in the United States, and also provides broadband subscription television services through DirecTV. </p>
+		</blockquote>
+	</section>
+	
+	<!-- Notable Work-->
+	<section class="notable" style="display:none;">
+		<blockquote  style="display:inline-block; margin:0px;">
+		<!--img class="col-md-4 col-md-offset-2" src="img/techm_logo.png" style="display:inline-block; height:100px; margin-top:50px;"-->
+		<p class="col-md-4 col-md-offset-2" style="font-family:Lobster; display:inline-block; font-size:90px; padding:50px 20px 0px 70px;;">Twiki</p>
+		<p class="col-md-4" style="font-size:17px;">Twiki is a web-portal specifically designed to act as a knowledge hub for a Project. Designed using <code>HTML5,CSS3,Bootstrap,PHP5,NodeJS,AJAX,JS,JQuery</code> and more such technologies. Aimed at bringing the Induction and shadowing process for an Employee at par. A specifically designed exam portal to track everyday progress of trianee.Recieved critical acclaim from Client(AT&T) and Organization(TechM).</p>
+		</blockquote>
+		<blockquote  style="display:inline-block;">
+		<img class="col-md-4 col-md-offset-2" src="img/att-logo.png" style="display:inline-block; height:250px;">
+		<p class="col-md-4" style="font-size:17px;">AT&T can trace its origin back to the original Bell Telephone Company founded by Alexander Graham Bell after his invention of the telephone. It is an American multinational telecommunications conglomerate. It is the second largest provider of mobile telephone services and the largest provider of fixed telephone services in the United States, and also provides broadband subscription television services through DirecTV. </p>
+		</blockquote>
+	</section>
+	
+	<!--testimonial section-->
+	<section class="featured testimonials" style="display:none;">
+		<h2>Testimonials</h2>
+		<blockquote>
+		<p>Working with Shashank was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
+			<footer>	
+				<p>
+					<cite>Puneet Kumar, <a href="#" target="_blank" rel="author">Team Lead, Tech Mahindra </a>
+					</cite>
+				</p> 
+			</footer>
+		</blockquote>
+		<blockquote>
+			<p>I have the fortune of working with Shashank on a very regular basis. Every single project is done in a timely fashion and is delivered exactly as is outlined. Beyond that, his development skills and expertise make him an invaluable part of team. I absolutely offer my highest possible recommendation.</p>
+				<footer>
+					<p>
+						<cite>Sumit Maurya, <a href="" rel="nofollow author">Software Developer, Tech Mahindra</a></cite>
+					</p> 
+				</footer>
+		</blockquote>
+		<blockquote>
+			<p>Shashank has done a fantastic job overall. Not only the website's are to design, the code is very clean and slick. </p> 
+			<footer>
+				<p>
+					<cite>Abhishek Masih, Senior Software Engineer at <a href="" target="_blank" rel="author">Tech Mahindra</a></cite>
+				</p> 
+			</footer>
+		</blockquote> 
+	</section>
+		
+	<!-- Footer -->
+    <footer style="background:url(mg/gmap1.png) bottom center no-repeat #222;">
+        <div class="container text-center">
+            <!--p>Copyright &copy; Your Website 2016</p-->
+			<div class="col-lg-4 col-lg-offset- " style=" color:white; padding:0px; font-size:9px;">
+				<div class="avatar social"> 
+					<img width="70" height="80" src="img/Devimg.jpg">
+				</div>
+				<div class="bio">
+					<p class="bio-info">Front-end Developer, UI designer, Automation Test Engineer and graduate in Computer Science Engineering. Shashank combines his education with 3 years commercial experience in front-end development & Automation Test to produce high-quality websites and exceptional user experience.</p>
+				</div>
+			</div>
+			<div class="col-lg-7 col-lg-offset-1 text-center" style="color:white; padding-top:100px;">
+                    <!--h4 style="font-family:'Supermercado One';text-transform:none; font-size:30px;">Shashank Kumar
+                    </h4>
+                    <p>1/123 Vasundhara
+                        <br>Ghaziabad, UP 201012</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (91) 9599221525</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <!--a href="mailto:shash.143.kumar@gmail.com">ShashankKumar@gmail.com<!--/a-->
+                        <!--/li>
+                    </ul-->
+                    <br>
+                    <ul class="list-inline" >
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x cyanicon"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x cyanicon"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin fa-fw fa-3x cyanicon"></i></a>
+                        </li>
+						<li>
+                            <a href="#"><i class="fa fa-github fa-fw fa-3x cyanicon" ></i></a>
+                        </li>
+						<li>
+                            <a href="#"><i class="fa fa-free-code-camp fa-fw fa-3x cyanicon"></i></a>
+                        </li>
+						
+                    </ul>
+                    <hr class="large" style="border-bottom-color:#1fbad6; margin-bottom:8px; margin-top:0px;">
+                    <p class="" style="font-family:'Supermercado One'; font-size:24px;">
+					One line that changed my life. "Luke, I am your father."
+					</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+	<script src="js/sectiontoggle.js"></script>
+</body>
+
+</html>

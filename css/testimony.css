@@ -1,0 +1,147 @@
+section,blockquote,cite {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+blockquote>p, blockquote>footer>p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+.home section {
+	margin: 0;
+}
+.testimonials.featured {
+	padding-top: 6em;
+	padding-bottom: 4em;
+	background: #f9f9f9;
+}
+main[role='main'] {
+	padding-bottom: 0px;
+	background: white;
+}
+body {
+	line-height: 1;
+}
+body {
+	background-color: #222;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+.services ul, #pagination, .wpcf7, textarea, .add-comment, .comment-single, .required, input, .blockUI, .nav-archive, .date-and-author, .featured li, #searchform, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato",sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+section h2 {
+	margin-bottom: 0.4em;
+}
+.testimonials.featured h2 {
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote {
+	font-size: 1em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+blockquote {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/*margin-bottom: 2em;*/
+	padding: 5em 20px;
+	text-align: left;
+	background: #f9f9f9;
+	color: #333;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+	content: "";
+	content: none;
+}
+blockquote::before {
+	line-height: 0.8;
+	font-size: 66px;
+	font-family: "Source Code Pro","Courier New";
+	color: #045f8c;
+}
+blockquote::before {
+	position: relative;
+	content: "\201C";
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.testimonials.featured blockquote {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	display: block;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 2em 20px;
+	text-align: left;
+	font-size: 16px;
+}
+.testimonials.featured blockquote::before {
+	position: relative;
+	content: "\201C";
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.orgclient blockquote::before,.notable blockquote::before {
+	position: relative;
+	content: "";
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+blockquote > p {
+	font-family: "Lato",sans-serif;
+	line-height: 160%;
+	text-align: left;
+}
+blockquote strong, blockquote footer {
+	font-style: normal;
+	font-weight: 900;
+	font-family: "Lato",sans-serif;
+}
+blockquote footer {
+	display: block;
+	text-align: right;
+	margin-top: 1em;
+	line-height: 140%;
+}
+.testimonials.featured blockquote footer {
+	display: block;
+	text-align: right;
+	margin-top: 1em;
+	line-height: 140%;
+}
+a {
+	color: #045f8c;
+	text-decoration: none;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	-ms-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
