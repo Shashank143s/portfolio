@@ -14,4 +14,5 @@ $(document).ready(function(){
 		$(".testimonials").hide();
 		$(".orgclient").hide();
 	});
+
 });

@@ -115,7 +115,7 @@ blockquote::before {
 }
 
 blockquote > p {
-	font-family: "Lato",sans-serif;
+	font-family: 'Josefin Slab', serif;
 	line-height: 160%;
 	text-align: left;
 }
@@ -136,6 +136,9 @@ blockquote footer {
 	margin-top: 1em;
 	line-height: 140%;
 }
+.testimonials>blockquote>p{
+	font-size:20px;
+}
 a {
 	color: #045f8c;
 	text-decoration: none;
@@ -144,4 +147,6 @@ a {
 	-ms-transition: color 0.3s;
 	-o-transition: color 0.3s;
 	transition: color 0.3s;
+	
 }
+

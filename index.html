@@ -17,8 +17,8 @@
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Cantarell|Supermercado+One+Alegreya|Lobster" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cormorant+Infant:300|Cormorant+Upright:300" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cantarell|Dancing+Script:700|Homemade+Apple|Supermercado+One+Alegreya|Lobster|UnifrakturCook:700|Macondo|Indie+Flower|Josefin+Slab:300" rel="stylesheet"> 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
@@ -49,6 +49,7 @@
 }
 
 
+
 .avatar img {
     display: block;
     margin: 0 auto;
@@ -67,7 +68,7 @@
 	background-color:#8E44AA;
     margin: 0;
     text-align: center;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 1.2;
 	padding:1em 0 0.8em 0;
 	color:white;
@@ -84,7 +85,7 @@
 	background-color:#00a392;
     margin: 0;
     text-align: center;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 1.2;
 	padding:1em 0 0.8em 0;
 	color:white;
@@ -101,7 +102,7 @@
 	background-color:#c94149;
     margin: 0;
     text-align: center;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 1.2;
 	padding:1em 0 0.8em 0;
 	color:white;
@@ -119,6 +120,38 @@
 .cyanicon:hover{
 	color:#045f8c;
 }
+.mySpace{
+	font-size:20px;
+	font-weight:300;
+}
+.oneLine{
+	font-family: 'Macondo';  /*'Supermercado One'*/
+	font-size:24px;
+	
+}
+blockquote>footer{
+	font-size:15px;
+}
+
+@media screen and (max-width: 530px) and (min-width: 200px){
+	.purpleact, .redact, .greenact, .mySpace {
+		font-size:16px;
+	}
+	.mySpace{
+		width:100%;
+	}
+	 .oneLine{
+		font-size:16px;
+	}
+	blockquote > p{
+		padding:40px;
+	}
+}
+#about>div>div>h1{
+	font-family:'Dancing Script', cursive;
+	text-transform:none;
+}
+
 /*
 ul>li>a>i:hover{
 	color:#2098d1;
@@ -174,7 +207,7 @@ ul>li>a>i:hover{
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-						<img class="btn btn-circle" src="img/pro_pic.png" style="border-size:10px; margin-top:50px; margin-bottom:50px; height:auto; width:auto;">
+						<img class="btn btn-circle" src="img/DisplayPic1.jpg" style="border-size:10px; margin-top:50px; margin-bottom:50px; height:auto; width:auto;">
                         <p class="intro-text" style="">Web Developer <i class="fa fa-star" aria-hidden="true" style="font-size:12px; margin-top:-20px;"></i> UI/UX Designer <i class="fa fa-star" aria-hidden="true" style="font-size:12px;"></i> Automation Tester
                         </p>
                         <a href="#about" class="btn btn-circle page-scroll" style="">
@@ -190,8 +223,8 @@ ul>li>a>i:hover{
     <section id="about" class="container content-section text-center" style=" padding:110px 50px 70px 50px; background-color:white; color:black; margin:0px; width:100%">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Life of a Front End Developer</h2>
-                <p style="font-size:22px; line-height:2.0;">Software Engineer with 2+ years of experience. People mostly work in either Testing or Development domain. But i offer a packaged deal; Tester and a developer. I am in ways better than a Full Stack Developer because i can even test the code. I have not confined or hampered my learning. I have received Client Appreciation for Designing and Developing a Web Portal for a new Employee's Induction and Shadowing process. The idea and tool was perceived with critical acclaim and received an award for the same. I am currently working on MEAN stack as i have recently discovered my profound love for NodeJS and Mongo DB</p>
+                <h1>About Me</h1>
+                <p id="aboutContent">" Software Engineer with 2+ years of experience. People mostly work in either Testing or Development domain. But I offer a packaged deal; Tester and a developer. I am in ways better than a Full Stack Developer because I can even test the code. I have not confined or hampered my learning. I have received Client Appreciation for Designing and Developing a Web Portal for a new Employee's Induction and Shadowing process. The idea and tool was perceived with critical acclaim and received an award for the same. I am currently working on MEAN stack as i have recently discovered my profound love for NodeJS and Mongo DB. "</p>
             </div>
         </div>
     </section>
@@ -247,31 +280,40 @@ ul>li>a>i:hover{
     <!-- Map Section >
     <div id="map"></div-->
 	<!-- What i love to do section -->
-	<a class="purpleact"><i class="fa fa-sitemap" aria-hidden="true"></i> Organizations and Clients</a><a class="redact"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Notable work</a><a class="greenact"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Testimonials</a>
-	<a title="Space:What I love to do!" class="button action" href="#" style="font-size:20px;">I <i class="fa fa-heart" aria-hidden="true" style="color:#FF3333;"></i> cooking <i class="fa fa-cutlery" aria-hidden="true" style="color:peachpuff;"></i> , Binge-watching Sitcoms <i class="fa fa-television" aria-hidden="true" style="color:black;"></i> and code <i class="fa fa-code" aria-hidden="true" style="color:yellowGreen;"></i></a>
+	<a class="purpleact"><i class="fa fa-sitemap" aria-hidden="true"></i> Org & Clients</a><a class="redact"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Notable work</a><a class="greenact"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Testimonials</a>
+	<a title="Space:What I love to do!" class="button action mySpace" href="#" >I <i class="fa fa-heart" aria-hidden="true" style="color:#FF3333;"></i> cooking <i class="fa fa-cutlery" aria-hidden="true" style="color:peachpuff;"></i> , binge-watching Sitcoms <i class="fa fa-television" aria-hidden="true" style="color:black;"></i> and coding <i class="fa fa-code" aria-hidden="true" style="color:yellowGreen;"></i></a>
     
 	<!--Organization and Client-->
 	<section class="orgclient" style="display:none;">
 		<blockquote  style="display:inline-block; margin:0px;">
 		<img class="col-md-4 col-md-offset-2" src="img/techm_logo.png" style="display:inline-block; height:100px; margin-top:50px;">
-		<p class="col-md-4" style="font-size:17px;">Tech Mahindra Limited is an Indian multinational provider of information technology (IT), networking technology solutions and Business Process Outsourcing (BPO) to the telecommunications industry.Tech Mahindra is a US$4.2 billion company with over 117,000 employees across 90 countries.Tech Mahindra has 825 active clients as of March 2016.</p>
+		<p class="col-md-4" style="font-size:19px;">Tech Mahindra Limited is an Indian multinational provider of information technology (IT), networking technology solutions and Business Process Outsourcing (BPO) to the telecommunications industry.Tech Mahindra is a US$4.2 billion company with over 117,000 employees across 90 countries.Tech Mahindra has 825 active clients as of March 2016.</p>
 		</blockquote>
 		<blockquote  style="display:inline-block;">
 		<img class="col-md-4 col-md-offset-2" src="img/att-logo.png" style="display:inline-block; height:250px;">
-		<p class="col-md-4" style="font-size:17px;">AT&T can trace its origin back to the original Bell Telephone Company founded by Alexander Graham Bell after his invention of the telephone. It is an American multinational telecommunications conglomerate. It is the second largest provider of mobile telephone services and the largest provider of fixed telephone services in the United States, and also provides broadband subscription television services through DirecTV. </p>
+		<p class="col-md-4" style="font-size:19px;">AT&T can trace its origin back to the original Bell Telephone Company founded by Alexander Graham Bell after his invention of the telephone. It is an American multinational telecommunications conglomerate. It is the second largest provider of mobile telephone services and the largest provider of fixed telephone services in the United States, and also provides broadband subscription television services through DirecTV. </p>
 		</blockquote>
 	</section>
 	
 	<!-- Notable Work-->
 	<section class="notable" style="display:none;">
+		<!--Twiki notable work section-->
 		<blockquote  style="display:inline-block; margin:0px;">
 		<!--img class="col-md-4 col-md-offset-2" src="img/techm_logo.png" style="display:inline-block; height:100px; margin-top:50px;"-->
-		<p class="col-md-4 col-md-offset-2" style="font-family:Lobster; display:inline-block; font-size:90px; padding:50px 20px 0px 70px;;">Twiki</p>
-		<p class="col-md-4" style="font-size:17px;">Twiki is a web-portal specifically designed to act as a knowledge hub for a Project. Designed using <code>HTML5,CSS3,Bootstrap,PHP5,NodeJS,AJAX,JS,JQuery</code> and more such technologies. Aimed at bringing the Induction and shadowing process for an Employee at par. A specifically designed exam portal to track everyday progress of trianee.Recieved critical acclaim from Client(AT&T) and Organization(TechM).</p>
+		<p class="col-md-4 col-md-offset-2" style="font-family:Lobster; display:inline-block; font-size:90px; padding:50px 20px 0px 70px;">Twiki</p>
+		<p class="col-md-4" style="font-size:19px;">Twiki is a web-portal specifically designed to act as a knowledge hub for a Project. Designed using <code>HTML5,CSS3,Bootstrap,PHP5,NodeJS,AJAX,JS,JQuery</code> and more such technologies. Aimed at bringing the Induction and shadowing process for an Employee at par. A specifically designed exam portal to track everyday progress of trianee.Recieved critical acclaim from Client(AT&T) and Organization(TechM).</p>
 		</blockquote>
-		<blockquote  style="display:inline-block;">
-		<img class="col-md-4 col-md-offset-2" src="img/att-logo.png" style="display:inline-block; height:250px;">
-		<p class="col-md-4" style="font-size:17px;">AT&T can trace its origin back to the original Bell Telephone Company founded by Alexander Graham Bell after his invention of the telephone. It is an American multinational telecommunications conglomerate. It is the second largest provider of mobile telephone services and the largest provider of fixed telephone services in the United States, and also provides broadband subscription television services through DirecTV. </p>
+		<!--ChatterBox notable work section-->
+		<blockquote  style="display:inline-block; margin:0px;">
+		<!--img class="col-md-4 col-md-offset-2" src="img/techm_logo.png" style="display:inline-block; height:100px; margin-top:50px;"-->
+		<p class="col-md-4 col-md-offset-2" style="font-family:Lobster; display:inline-block; font-size:90px;">ChatterBox</p>
+		<p class="col-md-4" style="font-size:19px;">ChatterBox is a Retail Project Forum where people can share there queries, opinions, knowledge etc. The idea behind the tool was to collaborate most frequently asked questions, documents etc. on a common platform. The idea was well perceived and currently is under development. </p>
+		</blockquote>
+		<!--Bridge notable work section-->
+		<blockquote  style="display:inline-block; margin:0px;">
+		<!--img class="col-md-4 col-md-offset-2" src="img/techm_logo.png" style="display:inline-block; height:100px; margin-top:50px;"-->
+		<p class="col-md-4 col-md-offset-2" style="font-family:Lobster; display:inline-block; font-size:90px; padding:20px 20px 0px 70px;">Bridge</p>
+		<p class="col-md-4" style="font-size:19px;">Bridge is an Android Based Application that works on the concept of Near Field Communication(NFC). It helps Visually Challenged people to identify things that are equipped with an NFC enabled chip. The Application speaks the data stored inside the chip. It was created in a contest "Tech Hackathon".The idea was well percieved at organizational level.</p>
 		</blockquote>
 	</section>
 	
@@ -282,7 +324,7 @@ ul>li>a>i:hover{
 		<p>Working with Shashank was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
 			<footer>	
 				<p>
-					<cite>Puneet Kumar, <a href="#" target="_blank" rel="author">Team Lead, Tech Mahindra </a>
+					<cite>Puneet Kumar <br><a href="#" >Team Lead<br> Tech Mahindra </a>
 					</cite>
 				</p> 
 			</footer>
@@ -291,7 +333,7 @@ ul>li>a>i:hover{
 			<p>I have the fortune of working with Shashank on a very regular basis. Every single project is done in a timely fashion and is delivered exactly as is outlined. Beyond that, his development skills and expertise make him an invaluable part of team. I absolutely offer my highest possible recommendation.</p>
 				<footer>
 					<p>
-						<cite>Sumit Maurya, <a href="" rel="nofollow author">Software Developer, Tech Mahindra</a></cite>
+						<cite>Sumit Maurya<br> <a href="#" >Software Developer<br> Tech Mahindra</a></cite>
 					</p> 
 				</footer>
 		</blockquote>
@@ -299,7 +341,7 @@ ul>li>a>i:hover{
 			<p>Shashank has done a fantastic job overall. Not only the website's are to design, the code is very clean and slick. </p> 
 			<footer>
 				<p>
-					<cite>Abhishek Masih, Senior Software Engineer at <a href="" target="_blank" rel="author">Tech Mahindra</a></cite>
+					<cite>Abhishek Masih<br> <a href="" target="_blank" rel="author"> Senior Software Engineer<br> Tech Mahindra</a></cite>
 				</p> 
 			</footer>
 		</blockquote> 
@@ -311,10 +353,10 @@ ul>li>a>i:hover{
             <!--p>Copyright &copy; Your Website 2016</p-->
 			<div class="col-lg-4 col-lg-offset- " style=" color:white; padding:0px; font-size:9px;">
 				<div class="avatar social"> 
-					<img width="70" height="80" src="img/Devimg.jpg">
+					<img width="70" height="80" src="img/DisplayPic.jpg">
 				</div>
 				<div class="bio">
-					<p class="bio-info">Front-end Developer, UI designer, Automation Test Engineer and graduate in Computer Science Engineering. Shashank combines his education with 3 years commercial experience in front-end development & Automation Test to produce high-quality websites and exceptional user experience.</p>
+					<p class="bio-info">Front-end Developer, UI designer, Automation Test Engineer and graduate in Computer Science Engineering. Shashank combines his education with 3 years commercial experience in front-end development & Automation Testing to produce high-quality websites and exceptional user experience.</p>
 				</div>
 			</div>
 			<div class="col-lg-7 col-lg-offset-1 text-center" style="color:white; padding-top:100px;">
@@ -347,7 +389,7 @@ ul>li>a>i:hover{
 						
                     </ul>
                     <hr class="large" style="border-bottom-color:#1fbad6; margin-bottom:8px; margin-top:0px;">
-                    <p class="" style="font-family:'Supermercado One'; font-size:24px;">
+                    <p class="oneLine">
 					One line that changed my life. "Luke, I am your father."
 					</p>
             </div>
