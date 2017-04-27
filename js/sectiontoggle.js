@@ -14,5 +14,7 @@ $(document).ready(function(){
 		$(".testimonials").hide();
 		$(".orgclient").hide();
 	});
-
+	$(".featured.work li a").click(function(){
+		return false;
+	});
 });
